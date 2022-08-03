@@ -5,7 +5,10 @@
   # Description
   A README generator built with Javascript. It will prompt the user for relevant information and apply it to the markdown template, which it then write to a README file in the 'output' folder.
 
-  ![demonstration](./assets/readme%20gen.mp4)
+  
+
+https://user-images.githubusercontent.com/25498967/182715205-318ae51b-100d-49b3-81e2-70f99f076131.mp4
+
   # Table of Contents 
   * [Installation](#-Installation)
   * [Usage](#-Usage)
