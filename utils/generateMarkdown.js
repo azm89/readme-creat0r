@@ -1,60 +1,40 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-${renderBadge(data.license)}
+  return `
 
-## Github URL 🌐
-
-[${data.github}](https://github.com/${data.github}/)
-
-## Description 📝
-
-${data.description}
-
-
-## Table of Contents 🗒
-
-* [Installations](#dependencies)
-
-* [Usage](#usage)
-
-${renderLink(data.license)}
-
-* [Contributors](#contributors)
-
-* [Test](#test)
-
-
-## Installation 💻
-
-To install dependencies, run these commands:
-
-\`\`\`
-${data.installation}
-\`\`\`
-
-
-## Usage 🏆
-
-${data.usage}
-
-${renderSection(data.license)}
-
-
-## Contributors 😃
-
-${data.contributors}
-
-Contact me at ${data.email}
-
-
-## Tests 🧪
-
-To run tests, run these commands:
-
-\`\`\`
-${data.test}
-\`\`\`
+  # ${data.title}
+  
+  ${data.getLicense}
+  
+  # Description
+  ${data.description}
+  
+  # Table of Contents 
+  * [Installation](#-Installation)
+  * [Usage](#-Usage)
+  * [License](#-License)
+  * [Contributing](#-Contributing)
+  * [Tests](#-Tests)
+  * [Contact](#-Contact-Information)
+      
+  # Installation
+  ${data.installation}
+  
+  # Usage
+  ${data.usage}
+  
+  # License 
+  ${data.license}
+  
+  # Contributing 
+  ${data.contributing}
+  
+  # Tests
+  ${data.tests}
+  
+  # Contact Information 
+  * GitHub Username: ${data.github}
+  * Contact Email: ${data.email}
 
 `;
 }
