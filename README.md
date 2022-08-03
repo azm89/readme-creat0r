@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/25498967/182715205-318ae51b-100d-49b3-
   Open the folder in a terminal and run the command ' node index.js'.
   
   # Contributing 
-  If you wish to contribute to the project, you can write better code than I wrote.
+  If you wish to contribute to the project, write better code than I wrote.
   
   # Contact Information 
   * GitHub Username: azm89
